@@ -3,13 +3,12 @@
 	"version": "1.0.0",
 	"description": "Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`",
 	"license": "MIT",
-	"repository": "sindresorhus/pretty-ms",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sindresorhus/pretty-ms.git"
 	},
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": "leermao <447552708@qq.com> (https://github.com/leermao/pretty-ms-i18n)",
 	"engines": {
 		"node": ">=10"
 	},
@@ -45,5 +44,13 @@
 		"ava": "^2.4.0",
 		"tsd": "^0.11.0",
 		"xo": "^0.30.0"
+	},
+	"bugs": {
+		"url": "https://github.com/sindresorhus/pretty-ms/issues"
+	},
+	"homepage": "https://github.com/sindresorhus/pretty-ms#readme",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
 	}
 }
